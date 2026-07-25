@@ -1,7 +1,28 @@
 aid: condorsoftware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/condorsoftware.png
 name: Condorsoftware
-description: Condorsoftware is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Condor Software builds AI-powered financial intelligence software for life sciences R&D
+  organizations, unifying clinical, operational, and financial data to manage complex clinical
+  trial finances. The platform connects data from existing systems (CROs, ERP, CTMS, EDC,
+  procurement), automates AI-powered accruals, invoice reconciliation, and financial close, and
+  delivers board-ready forecasts, scenario planning, and portfolio dashboards for pharmaceutical,
+  biotech, and medical device companies. Condor advertises 90%+ forecast accuracy, faster
+  month-end close versus spreadsheets, and a compliance-by-design architecture co-developed with
+  Big 4 accounting firms. No public API, developer portal, or SDKs are published at this time;
+  integrations with systems such as Veeva, Medidata, SAP, and Oracle NetSuite are delivered
+  through the product. Backed by Felicis; raised a $24M Series A.
 url: https://raw.githubusercontent.com/api-evangelist/condorsoftware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Life Sciences
+- Clinical Trials
+- Financial Intelligence
+- Pharmaceutical
+- Biotech
+- FinOps
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/condorsoftware-domain-security.yml
 - type: Website
   url: https://condorsoftware.com
+- type: Blog
+  url: https://condorsoftware.com/blog
+- type: Support
+  url: https://condorsoftware.com/contact
+- type: PrivacyPolicy
+  url: https://condorsoftware.com/privacy-policy
+- type: TermsOfService
+  url: https://condorsoftware.com/legal
+- type: About
+  url: https://condorsoftware.com/company/about
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
